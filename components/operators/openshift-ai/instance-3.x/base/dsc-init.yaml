@@ -9,5 +9,39 @@ spec:
     metrics: {}
     namespace: redhat-ods-monitoring
   trustedCABundle:
-    customCABundle: ''
+    customCABundle: |
+      -----BEGIN CERTIFICATE-----
+      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
+      Gryt8pQc6O8nmcg=
+      -----END CERTIFICATE-----
+
     managementState: Managed
